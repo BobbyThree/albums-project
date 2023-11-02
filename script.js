@@ -89,23 +89,3 @@ const jazzAlbums = records.filter(record => record.genre === 'Jazz');
 const rockAlbums = records.filter(record => record.genre === 'Rock');
 const bluegrassAlbums = records.filter(record => record.genre === 'Bluegrass');
 const punkAlbums = records.filter(record => record.genre === 'Punk');
-
-function printJazzAlbums() {
-  document.querySelector('#print-albums').innerHTML =
-JSON.stringify(jazzAlbums, undefined, 4);
-}    
-
-function printRockAlbums() {
-  document.querySelector('#print-albums').innerHTML =
-  JSON.stringify(rockAlbums, undefined, 4);
-}
-
-function printBluegrassAlbums() {
-  document.querySelector('#print-albums').innerHTML =
-  JSON.stringify(bluegrassAlbums, undefined, 4);
-}
-
-function printPunkAlbums() {
-  document.querySelector('#print-albums').innerHTML =
-  JSON.stringify(punkAlbums, undefined, 4);
-}
