@@ -1,0 +1,12 @@
+body {
+  background-color: blanchedalmond;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.container img {
+  height: 200px;
+}

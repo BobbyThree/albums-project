@@ -1,0 +1,11 @@
+the purpose of this web page will be explored here:
+
+Main Ideas:
+  - create a record collection archive
+  - display certain information about a record collection i.e: artist   name, album name, release date, record label etc
+  
+  Design Ideas: 
+   - heading and picture of record at top
+   - small blurb about the function of the website
+   - category buttons by genre with links to genre specific page with list of albums with thumbnails. 
+   - make thumbnails expandable to show additional info i.e. liner notes, reviews etc
