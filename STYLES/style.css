@@ -15,7 +15,7 @@ body {
 }
 
 img:hover {
-  background-color: darkred;
+  background-color: rgb(185, 32, 32);
   transition: .5s;
 }
 

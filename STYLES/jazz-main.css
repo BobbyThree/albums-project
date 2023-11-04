@@ -7,6 +7,16 @@ body {
   grid-template-columns: repeat(4, 1fr);
 }
 
+.album {
+  text-align: center;
+}
+
 .container img {
   height: 200px;
 }
+
+.album-info {
+  text-align: center;
+  padding: 20px;
+}
+
